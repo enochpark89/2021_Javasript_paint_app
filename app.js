@@ -121,6 +121,8 @@ if(canvas){
 Array.from(colors).forEach(color => color.addEventListener("click", handleColorClicked))
 
 
+// Make sure that variables are not null; add EventListeners.
+
 if (range) {
   range.addEventListener("input", handleRangeChange);
 }
